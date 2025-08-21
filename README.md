@@ -1,20 +1,207 @@
-# Hydejack Starter Kit
+# Hydeout
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Hydeout updates the original [Hyde](https://github.com/poole/hyde)
+theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+![Desktop](/_screenshots/1.png?raw=true)
+<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
+<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+## ✅ Jekyll 4.x Branch
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+**You're viewing the Jekyll 4.x compatible branch (recommended for all new projects).**
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+This branch includes:
+- Full Jekyll 4.x compatibilityTha
+- GitHub Pages deployment support
+- Modern Sass modules
+- Updated dependencies
+- Performance improvements
+- Bug fixes
+
+## Usage
+
+Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
+Add `gem "jekyll-theme-hydeout", "~> 5.0"` to your Gemfile and run
+`bundle install`.
+
+### GitHub Pages Support
+
+**Important:** Jekyll 4.x requires GitHub Actions for GitHub Pages deployment, as the default GitHub Pages builder only supports Jekyll 3.x.
+
+To use this theme with GitHub Pages, set up a GitHub Actions deployment:
+- Use our [workflow file](https://github.com/fongandrew/hydeout/blob/jekyll-v4/.github/workflows/jekyll-build.yml) as a template.
+- Update the branch name in the workflow to match your main branch
+- Enable GitHub Pages in your repository settings with the source set to "GitHub Actions"
+
+See https://jekyllrb.com/docs/continuous-integration/github-actions/ for more information.
+
+### Pagination Setup
+
+Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
+it with an `index.html` that uses the `index` layout:
+
+```
+---
+layout: index
+title: Home
+---
+```
+
+You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
+to include per page (e.g. `paginate: 5`).
+
+### Keep It Simple
+
+In keeping with the original Hyde theme, Hydeout aims to keep the overall
+design lightweight and plugin-free. JavaScript is currently limited only
+to Disqus and Google Analytics (and is only loaded if you provide configuration
+variables).
+
+Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
+the CSS degrades into a single column layout.
+
+### Customization
+
+Hydeout replaces Hyde's class-based theming with the use
+of the following SASS variables:
+
+```scss
+$sidebar-bg-color: #202020 !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+```
+
+To override these variables, define your own variables inside a SASS file
+in the `assets/css/` directory.
+Then `@use` that file in your own `assets/css/main.scss` file, like so:
+
+```scss
+---
+# Jekyll needs front matter for SCSS files
+---
+
+@use "colours";
+@use "hydeout/variables" with (
+  $body-bg:           colours.$grey,
+  $body-color:        white,
+  $heading-color:     colours.$light-pink,
+  $link-color:        colours.$green,
+  $sidebar-bg-color:  colours.$dark-pink,
+  $sidebar-sticky:    false,
+  );
+@use "hydeout";
+```
+
+Example content of `assets/css/colours.scss`:
+
+```scss
+$green:       #61c200;
+$grey:        #363636;
+$dark-pink:   #9f0647;
+$light-pink:  #f0a2c3;
+```
+
+See the [_variables](_sass/hydeout/_variables.scss) file for other variables
+you can override.
+
+**Pay attention to the namespace of the variables you intend to override, otherwise, you will probably experience errors.**
+
+You can see the full set of partials you can replace in the
+[`_includes`](_includes) folder, but there are a few worth noting:
+
+* `_includes/copyright.html` - Insert your own copyright here.
+
+* `_includes/custom-head.html` - Insert custom head tags (e.g. to load your
+  own stylesheets)
+
+* `_includes/custom-foot.html` - Insert custom elements at the end of the
+  body (e.g. for custom JS)
+
+* `_includes/custom-nav-links.html` - Additional nav links to insert at the
+  end of the list of links in the sidebar.
+
+  Pro-tip: The `nav`s in the sidebar are flexboxes. Use the `order` property
+  to order your links.
+
+* `_includes/custom-icon-links.html`- Additional icon links to insert at the
+  end of the icon links at the bottom of the sidebar. You can use the `order`
+  property to re-order.
+
+* `_includes/favicons.html` - Replace references to `favicon.ico` and
+  `favicon.png` with your own favicons references.
+
+* `_includes/font-includes.html` - The Abril Fatface font used for the site
+  title is loaded here. If you're overriding that font in the CSS, be sure
+  to also remove the font load reference here.
+
+### New Features
+
+* Hydeout adds a new tags page (accessible in the sidebar). Just create a
+  new page with the tags layout:
+
+  ```
+  ---
+  layout: tags
+  title: Tags
+  ---
+  ```
+
+* Hydeout adds a new "category" layout for dedicated category pages.
+  Category pages are automatically added to the sidebar. All other pages
+  must have `sidebar_link: true` in their front matter to show up in
+  the sidebar. To create a category page, use the `category` layout"
+
+  ```
+  ---
+  layout: category
+  title: My Category
+  ---
+
+  Description of "My Category"
+  ```
+
+* You can control how pages are sorted by using the `sidebar_sort_order`
+  parameter in the front matter. This works for both category and non-category
+  pages, although non-category pages will always come first. Take a look at
+  [`_includes/sidebar-nav-links.html`](./_includes/sidebar-nav-links.html) if
+  you want to customize this behavior.
+
+  ```
+  ---
+  layout: page
+  title: My page
+  sidebar_sort_order: 123
+  ---
+
+  Some content.
+  ```
+
+* A simple redirect-to-Google search is available. Just create a page with
+  the `search` layout.
+
+  ```
+  ---
+  layout: search
+  title: Google Search
+  ---
+  ```
+
+* Disqus integration is ready out of the box. Just add the following to
+  your config file:
+
+  ```yaml
+  disqus:
+    shortname: my-disqus-shortname
+  ```
+
+  If you don't want Disqus or want to use something else, override
+  `comments.html`.
+
+* For Google Analytics support, define a `google_analytics` variable with
+  your property ID in your config file.
+
+There's also a bunch of minor tweaks and adjustments throughout the
+theme. Hope this works for you!

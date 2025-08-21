@@ -1,0 +1,74 @@
+@use "variables";
+
+/*
+  Pagination
+
+  Super lightweight (HTML-wise) blog pagination. Should only be visible
+  when there is navigation available -- single buttons at top or bottom
+  of each page.
+*/
+
+.pagination {
+  color: variables.$gray-3;
+  margin-bottom: variables.$section-spacing;
+  text-align: center;
+
+  > a {
+    background: variables.$body-bg;
+    border: solid variables.$border-color;
+    border-radius: variables.$border-radius;
+    border-width: 1px;
+    box-shadow: variables.$default-box-shadow;
+    display: inline-block;
+    max-width: variables.$sidebar-width;
+    padding: variables.$padding-v variables.$padding-h;
+    width: 60%;
+  }
+
+  > a:hover {
+    background-color: variables.$border-color;
+  }
+}
+
+// Bottom -> margin-top;
+* + .pagination {
+  margin-top: variables.$section-spacing;
+}
+
+// Push above header if newer on mobile
+.content .pagination:first-child {
+  margin-top: -(variables.$section-spacing) * 2;
+}
+
+// Make room for larger header by extending margin below title
+.index #sidebar {
+  padding-bottom: calc(#{variables.$section-spacing} + #{variables.$padding-v});
+}
+
+// But not on page1
+.home.index #sidebar {
+  padding-bottom: variables.$section-spacing;
+}
+
+// Undo for larger screens
+@media (min-width: variables.$large-breakpoint) {
+  .pagination > a {
+    box-shadow: none;
+
+    &:hover { box-shadow: variables.$default-box-shadow; }
+  }
+
+  .content .pagination:first-child {
+    margin-top: 0;
+
+    + * {
+      border-top: 1px solid variables.$border-color;
+      margin-top: variables.$section-spacing;
+      padding-top: variables.$section-spacing;
+    }
+  }
+
+  .index #sidebar {
+    padding-bottom: variables.$section-spacing;
+  }
+}
