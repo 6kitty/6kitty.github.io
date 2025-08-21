@@ -7,7 +7,7 @@ categories:
 tags:
   - mac
   - pwn
-last_modified_at: 2025-08-22
+last_modified_at: 2025-08-21
 ---
 
 포스트라고 하기엔 대충이지만 
