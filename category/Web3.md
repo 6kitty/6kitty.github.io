@@ -1,4 +1,4 @@
 ---
 layout: category
-title: DeFi security
+title: Web3
 ---
