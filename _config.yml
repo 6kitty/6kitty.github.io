@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            6kittylog
-tagline:          'A Jekyll theme'
+tagline:          'nagajima'
 description:      'blockchain, pwn, CS... <br>and more'
 url:              https://6kitty.github.io
 baseurl:          '/'

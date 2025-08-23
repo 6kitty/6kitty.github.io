@@ -135,3 +135,25 @@ sudo apt upgrade -y
 ```
 
 이러고 다시 스크립트 실행 ㄱㄱ 
+
+
+설치는 됐는데 1804도 일단 필요할 거 같아서 얘는 도커로 넣으려고 한다. '
+
+[https://github.com/superkojiman/pwnbox](https://github.com/superkojiman/pwnbox)
+
+이걸로 가지고 왔다. 
+
+```bash
+git clone https://github.com/superkojiman/pwnbox
+sudo apt install jq 
+sudo ./run.sh my_ctf
+```
+
+하고 열심히 기다리고 다시 또 ip addr 가져와서 ssh 연결해주면 된다. 
+
+재접속 및 삭제는 아래 
+
+```bash 
+sudo docker start my_ctf && ./my_ctf-attach.sh
+sudo ./my_ctf-stop.sh
+```
