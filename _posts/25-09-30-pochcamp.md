@@ -147,8 +147,3 @@ solodit.cyfrin.io
 
 audit -> bug bounty 
 
-# Web2를 넘어 Web3 보안을 탐험하는 이유
-
-BNB 티셔츠와 체인 목걸이를 하신 게 정말 인상 깊었다(...) wiimdy.kr/about 
-Quiz만 짚고 ㄱ 
-GMX 
