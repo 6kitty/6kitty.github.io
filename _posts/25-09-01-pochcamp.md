@@ -5,7 +5,7 @@ categories:
   - +
 tags:
   - review
-last_modified_at: 2025-08-30
+last_modified_at: 2025-09-01
 ---
 
 해킹 캠프 참가했다. 스윙도 31기인데 해캠도 31회 참여라 걍 신기했다. 
