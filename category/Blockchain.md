@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Web3
+title: Blockchain
 ---
