@@ -1,0 +1,47 @@
+# .github/workflows/sync_posts.yml
+
+name: Sync 'ksmbd' posts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_posts/**ksmbd**' # _posts 폴더 안 파일명에 'ksmbd'가 포함된 파일이 변경될 때만 실행
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Checkout destination repository 21105590
+        uses: actions/checkout@v4
+        with:
+          repository: 6kitty/21105590
+          path: repo-21105590
+          token: ${{ secrets.ACTION_PAT }} # 🔑 아래 설명될 PAT 토큰
+
+      - name: Sync ksmbd files
+        run: |
+          echo "Finding and copying ksmbd files..."
+          mkdir -p repo-21105590/_posts
+          mkdir -p repo-B/_posts
+
+          find _posts -type f -name "*ksmbd*" -exec cp {} repo-21105590/_posts/ \;
+          find _posts -type f -name "*ksmbd*" -exec cp {} repo-B/_posts/ \;
+
+      - name: Commit and push to 21105590
+        run: |
+          cd repo-21105590
+          git config --global user.name "6kitty-bot"
+          git config --global user.email "sixeunseoth@gmail.com"
+          if [[ -n $(git status -s) ]]; then
+            git add .
+            git commit -m "docs: Sync ksmbd posts from 6kitty.github.io"
+            git push
+          else
+            echo "No changes to commit in 21105590."
+          fi
+          
