@@ -84,9 +84,9 @@ the attackers targeted vulnerabilities in DMM's infrastructure, leading to unaut
 vulnerabilities에 대한 언급은 없고 laundering에 대해서는 
 
 1. 여러 intermediate address로 흩어져 보내고 
-2. 결론적으로 Bitcoin CoinJoin Mizing service에 도달 
-3. 믹서 돌린 후 anumber of bridging services를 거쳐 
-4. 최종적으로 Guione Guarantee(an online marketplace tied to the Cambodian conflomerate, Huione Group)로 빠짐 
+2. 결론적으로 Bitcoin CoinJoin Mixing service에 도달 
+3. 믹서 돌린 후 a number of bridging services를 거쳐 
+4. 최종적으로 Huione Guarantee(an online marketplace tied to the Cambodian conflomerate, Huione Group)로 빠짐 
 
 여기서 이 휴이온 그룹은 significant player in facilitating cybercrimes로 보고된 바 있다고 한다. 
 
@@ -103,3 +103,4 @@ hexagate system은 detect and mitigate threats including cyber exploits, hacks, 
 2. tornado cash로 유입 
 
 # 정리 
+
