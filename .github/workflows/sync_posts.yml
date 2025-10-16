@@ -1,13 +1,14 @@
 # .github/workflows/sync_posts.yml
 
-name: Sync 'ksmbd' posts
+name: Sync posts
 
 on:
   push:
     branches:
       - main
     paths:
-      - '_posts/**ksmbd**' # _posts 폴더 안 파일명에 'ksmbd'가 포함된 파일이 변경될 때만 실행
+      - '_posts/**ksmbd**'
+      - '_posts/**bv**'
 
 jobs:
   sync-files:
@@ -21,16 +22,23 @@ jobs:
         with:
           repository: 6kitty/21105590
           path: repo-21105590
-          token: ${{ secrets.ACTION_PAT }} # 🔑 아래 설명될 PAT 토큰
+          token: ${{ secrets.ACTION_PAT }} 
+          
+      - name: Checkout destination repository BV
+        uses: actions/checkout@v4
+        with:
+          repository: 6kitty/BV-8th
+          path: repo-BV-8th
+          token: ${{ secrets.ACTION_PAT }}
 
-      - name: Sync ksmbd files
+      - name: Sync files
         run: |
-          echo "Finding and copying ksmbd files..."
+          echo "Finding and copying files..."
           mkdir -p repo-21105590/_posts
-          mkdir -p repo-B/_posts
+          mkdir -p repo-BV-8th/_posts
 
           find _posts -type f -name "*ksmbd*" -exec cp {} repo-21105590/_posts/ \;
-          find _posts -type f -name "*ksmbd*" -exec cp {} repo-B/_posts/ \;
+          find _posts -type f -name "*bv*" -exec cp {} repo-BV-8th/_posts/ \;
 
       - name: Commit and push to 21105590
         run: |
@@ -39,9 +47,22 @@ jobs:
           git config --global user.email "sixeunseoth@gmail.com"
           if [[ -n $(git status -s) ]]; then
             git add .
-            git commit -m "docs: Sync ksmbd posts from 6kitty.github.io"
+            git commit -m "docs: Sync posts from 6kitty.github.io"
             git push
           else
-            echo "No changes to commit in 21105590."
+            echo "No changes to commit"
+          fi
+          
+      - name: Commit and push to repo-BV-8th
+        run: |
+          cd repo-BV-8th
+          git config --global user.name "6kitty-bot"
+          git config --global user.email "sixeunseoth@gmail.com"
+          if [[ -n $(git status -s) ]]; then
+            git add .
+            git commit -m "docs: Sync posts from 6kitty.github.io"
+            git push
+          else
+            echo "No changes to commit"
           fi
           
