@@ -8,6 +8,7 @@ tags:
 last_modified_at: 2025-10-01
 published: false
 ---
+
 UTXO에 대해 소유권이 변경이 되었는지 -> 이부분에서 경우의 수가 다양해짐 
 flow보단 Ownership이 중요한데 
 
