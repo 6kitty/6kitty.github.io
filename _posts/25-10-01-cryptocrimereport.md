@@ -6,6 +6,7 @@ categories:
 tags:
   - stolen funds
 last_modified_at: 2025-10-01
+published: false
 ---
 
 오늘 뽀갤 자료 The Chainalysis 2025 Crypto Crime Report에서 stolen funds만 발췌독함 
