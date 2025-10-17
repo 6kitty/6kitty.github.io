@@ -102,5 +102,10 @@ hexagate system은 detect and mitigate threats including cyber exploits, hacks, 
 1. 두 개의 중간 주소 
 2. tornado cash로 유입 
 
-# 정리 
+
+
+
+
+
+### 메모 
 
