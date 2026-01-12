@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            6kittylog
-tagline:          'security, tech, life...'
-description:      'blockchain, pwn, CS... <br>and more'
+tagline:          'Eunseo Youk'
+description:      'cyber security'
 url:              https://6kitty.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
@@ -61,5 +61,4 @@ google_analytics: UA-100461102-1
 # Used for Hydeout's own Github page. Feel free to remove for your
 # own fork.
 hydeout:
-  version:          5.0.2
   repo:             https://github.com/6kitty

@@ -2,10 +2,10 @@
 layout: post
 title: "DLL injection"
 categories:
-  - Pwnable
+  - 'Self-study'
 tags:
   - windows
-  - injection
+  - pwn
 last_modified_at: 2023-05-23
 ---
 

@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Reversing
+title: Self-study
 ---

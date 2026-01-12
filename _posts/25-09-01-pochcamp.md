@@ -3,8 +3,6 @@ layout: post
 title: "31st Hacking Camp"
 categories:
   - +
-tags:
-  - review
 last_modified_at: 2025-09-01
 ---
 

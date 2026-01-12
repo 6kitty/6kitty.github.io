@@ -2,7 +2,7 @@
 layout: post
 title: "논문 리뷰: Risk Management in DeFi: Analyses of the Innovative Tools and Platforms for Tracking DeFi Transactions"
 categories:
-  - Web3
+  - 'Self-study'
 tags:
   - blockchain
   - defi
