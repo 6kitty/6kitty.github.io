@@ -9,6 +9,7 @@ on:
     paths:
       - '_posts/**ksmbd**'
       - '_posts/**bv**'
+      - '_posts/**swing**'
 
 jobs:
   sync-files:
@@ -30,15 +31,24 @@ jobs:
           repository: 6kitty/BV-8th
           path: repo-BV-8th
           token: ${{ secrets.ACTION_PAT }}
+          
+      - name: Checkout destination repository SWING
+        uses: actions/checkout@v4
+        with:
+          repository: 6kitty/SWING
+          path: repo-SWING
+          token: ${{ secrets.ACTION_PAT }}
 
       - name: Sync files
         run: |
           echo "Finding and copying files..."
           mkdir -p repo-21105590/_posts
           mkdir -p repo-BV-8th/_posts
+          mkdir -p repo-SWING/_posts
 
           find _posts -type f -name "*ksmbd*" -exec cp {} repo-21105590/_posts/ \;
           find _posts -type f -name "*bv*" -exec cp {} repo-BV-8th/_posts/ \;
+          find _posts -type f -name "**swing**" -exec cp {} repo-SWING/_posts/ \;
 
       - name: Commit and push to 21105590
         run: |
@@ -65,4 +75,6 @@ jobs:
           else
             echo "No changes to commit"
           fi
+          
+      - name: 어웅 귀찮.. 이따가 추가한다 
           
