@@ -28,6 +28,8 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
