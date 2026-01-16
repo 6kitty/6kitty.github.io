@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://6kitty.github.io/sitemap.xml
