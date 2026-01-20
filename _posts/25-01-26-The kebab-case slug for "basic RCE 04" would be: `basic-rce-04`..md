@@ -1,0 +1,42 @@
+---
+layout: post
+title: "내부 스터디 준비하면서 풀어야 하는 문제"
+categories: [Infer]
+tags: [Infer]
+last_modified_at: 2025-01-26
+---
+
+내부 스터디 준비하면서 풀어야 하는 문제  
+이걸 풀기 위해서는 먼저 안티 디버깅을 알아야 한다.  
+여기서 쓰인 안티 디버깅이 뭔지부터 파악해보자  
+
+이 프로그램은 디버거 프로그램을 탐지하는 기능을 갖고 있다. 디버거를 탐지하는 함수의 이름은 무엇인가  
+
+![Alt](https://blog.kakaocdn.net/dna/cdaHS0/btsL2czvrq8/AAAAAAAAAAAAAAAAAAAAABes5TldJWXolNRfnwfdENt87Zq7osIjYSQEfwlNN2gq/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=Jug1k1svgzxCGwvgRHOkk4w3JjQ%3D)  
+
+디버거에서 실행해봤더니 아니나 다를까 이렇게 문자열이 출력된다.  
+
+![Alt](https://blog.kakaocdn.net/dna/mRGJO/btsL00fM9Ge/AAAAAAAAAAAAAAAAAAAAAG68YmJBuw_K49CIo67ROfcgFZSGcrCB_UaoYK7qQ1U-/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=UdlQtYP3rQnisxiHs8205z9nrzo%3D)  
+
+ida로 열었더니 이부분이 딱 보인다. 저 함수는 대표적인 안티 디버깅 방법 중 하나이다.  
+
+구글링에서 찾은 해당 함수 그대로 인용하자면.. [https://iforint.tistory.com/52](https://iforint.tistory.com/52)  
+가장 간단한 디버거 탐지 윈도우 API 함수이다.  
+이 함수는 PEB 구조에서 IsDebugged 필드를 찾아 디버그가 동작 중인지 판단하여 동작 중이 아니라면 0, 동작 중이라면 0이 아닌 값을 반환한다.  
+그럼 PEB란? -> process environment block이다. 프로세스 관련 환경 정보들을 담고 있다(운체에서 배운다)  
+fs 레지스터가 이 PEB를 가리킬 수 있다. FS:[0x30]가 PEB 시작 위치(참고로 offset 0은 TEB 시작 위치이다)  
+수많은(은아닌가) 환경 정보들 중에 IsDebugged가 있는데 해당 함수는 이 필드를 검사한다.  
+
+우회하는 방법은  
+![Alt](https://blog.kakaocdn.net/dna/dc0fZe/btsL2nOCSdN/AAAAAAAAAAAAAAAAAAAAAGP9DMVcnGzRwuoA_K8pg_U-P-bm_cjmedUs2R51zg77/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=X65zdPZpOGqfxLr98qxdBsSBjas%3D)  
+
+일단 bp 걸어주고  
+![Alt](https://blog.kakaocdn.net/dna/AJVhv/btsL03wPedu/AAAAAAAAAAAAAAAAAAAAAEf5KSkMVjobi1JkQ31kScrX2YVXI7YmJrSiz-ishpQ1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=7jpHQ%2B9TF1%2FJ3hdPezwIt34zNjM%3D)  
+
+f8 누르면 반환값이 0이 아닌 값일 텐데  
+![Alt](https://blog.kakaocdn.net/dna/o5k4G/btsL1WRq5Uz/AAAAAAAAAAAAAAAAAAAAAPHu8VJRsTrPyBfl_SJXNkdGbN2nHnaL_WfTAPprAhns/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=d8s5NhhAUheGdEZSCuRvIqj6kqI%3D)  
+
+space 바를 눌러서 0으로 바꿔주면  
+![Alt](https://blog.kakaocdn.net/dna/p3iiU/btsL1sckBb0/AAAAAAAAAAAAAAAAAAAAALEpcjzIbzaArwLZQttDEbA3TJ-6BFEEU2zhJpoZK5l6/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1769871599&allow_ip=&allow_referer=&signature=AKi0mAruC0WbEzCKoPY8qsG51a8%3D)  
+
+이렇게 뜬다!  
