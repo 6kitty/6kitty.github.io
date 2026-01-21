@@ -4,6 +4,7 @@ title: "Calculator"
 categories: [Writeup]
 tags: [SSTI, Jinja2, RCE]
 last_modified_at: 2025-01-24
+render_with_liquid: false
 ---
 
 위 그림 참고해서 SSTI 취약점을 확인해보자  

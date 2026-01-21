@@ -1,4 +1,25 @@
 ---
-layout: search
-title: Google Search
+layout: page
+title: Search
+sidebar_link: true
+sidebar_sort_order: 1
 ---
+
+<div class="search-container">
+  <input type="text" id="search-input" placeholder="검색어를 입력하세요..." style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ddd; border-radius: 4px;">
+  <ul id="results-container" style="list-style: none; padding: 0; margin-top: 20px;"></ul>
+</div>
+
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<li style="margin-bottom: 15px;"><a href="{url}" style="font-weight: bold; font-size: 1.1em;">{title}</a><br><small style="color: #666;">{date} - {tags}</small></li>',
+    noResultsText: '검색 결과가 없습니다.',
+    limit: 10,
+    fuzzy: false
+  })
+</script>
