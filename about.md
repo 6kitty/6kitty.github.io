@@ -27,19 +27,19 @@ Blog : [git blog](https://6kitty.github.io/) || [tistory](https://6kitt-hack.tis
 
 **2025.12** \| 2025 ICT융합보안크루 (우수크루상)
 
-> 최신 사이버 위협 트렌드 분석 및 시스템 취약점 진단 프로젝트 수행 (과학기술정보통신부 주관) (Market Intelligence 및 최신 위협 리서치 역량 강조) [News Article](https://www.m-i.kr/news/articleView.html?idxno=1322452)
+> 최신 사이버 위협 트렌드 분석 및 시스템 취약점 진단 프로젝트 수행 (과학기술정보통신부 주관) [News Article](https://www.m-i.kr/news/articleView.html?idxno=1322452)
 
 **2025.11** \| 2025 ACK 우수논문 (국가보안기술연구소 소장상, 동상) `Python` `Solidity`
 
-> 블록체인 금융 사고 예방을 위한 스마트 컨트랙트 비즈니스 로직 취약점 탐지 정적 분석 프레임워크 제안 (Fintech 보안 취약점 분석 및 리스크 평가 능력 강조) [News Article](https://www.m-i.kr/news/articleView.html?idxno=1301668)
+> 블록체인 금융 사고 예방을 위한 스마트 컨트랙트 비즈니스 로직 취약점 탐지 정적 분석 프레임워크 제안 [News Article](https://www.m-i.kr/news/articleView.html?idxno=1301668)
 
 **2025.08** \| solc-parser 저작권 등록 및 PyPI 배포 
 
-> 스마트 컨트랙트 보안 감사를 돕기 위한 Python 기반 Solidity 구문 분석(Parser) 라이브러리 개발 및 오픈소스 기여 (보안 도구 개발 능력 및 주도적 문제 해결 능력 강조) [PyPI Page](https://pypi.org/project/solc-parser/)
+> 스마트 컨트랙트 보안 감사를 돕기 위한 Python 기반 Solidity 구문 분석(Parser) 라이브러리 개발 및 오픈소스 기여 [PyPI Page](https://pypi.org/project/solc-parser/)
 
 **2024.08** \| 2024 서울여자대학교 programming GURU2 (장려상) `Kotlin` `Figma`
 
-> 사용자 위치 기반 서비스(LBS) Android 애플리케이션 기획부터 개발까지 전 주기(Full-cycle) 주도 (IT 서비스 구조 이해 및 개발 협업 경험 강조) [GitHub Repo](https://github.com/6kitty/P-ckMap/)
+> 사용자 위치 기반 서비스(LBS) Android 애플리케이션 기획부터 개발까지 전 주기(Full-cycle) 주도 [GitHub Repo](https://github.com/6kitty/P-ckMap/)
 
 <br>
 
