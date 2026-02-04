@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자료 정리 1"
-categories:
+categories: [Cryptography & Blockchain]
   - 'Self-study'
 tags:
   - stolen funds

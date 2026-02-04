@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 10811 바구니 뒤집기"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [CPP, Algorithm, Baekjoon]
 last_modified_at: 2024-01-06
 ---

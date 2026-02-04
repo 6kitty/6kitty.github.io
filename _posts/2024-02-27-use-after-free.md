@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use After Free"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Memory Corruption, Use After Free, Dangling Pointer, ptmalloc2]
 last_modified_at: 2024-02-27
 ---

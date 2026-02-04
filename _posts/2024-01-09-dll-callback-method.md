@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "dll 호출 방법"
-categories: [SWING]
+categories: [System Hacking]
 tags: []
 last_modified_at: 2024-01-09
 ---

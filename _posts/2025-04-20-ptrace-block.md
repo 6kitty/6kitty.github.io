@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ptrace_block"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Ptrace, AES, Reverse Engineering]
 last_modified_at: 2025-04-20
 ---

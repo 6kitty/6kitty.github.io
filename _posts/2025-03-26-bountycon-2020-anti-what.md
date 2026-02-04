@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BountyCon 2020 - Anti What"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [CTF, BountyCon, ptrace, reverse engineering]
 last_modified_at: 2025-03-26
 ---

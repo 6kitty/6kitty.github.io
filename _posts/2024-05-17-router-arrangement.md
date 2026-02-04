@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "라우터 정리"
-categories: [Self-study]
+categories: [CS & Development]
 tags: [라우터, 스위치, 네트워크, IP주소, 동적 경로, 정적 경로]
 last_modified_at: 2024-05-17
 ---

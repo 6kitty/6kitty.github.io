@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 3052 나머지"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, 백준, 나머지, 문제풀이]
 last_modified_at: 2024-01-06
 ---

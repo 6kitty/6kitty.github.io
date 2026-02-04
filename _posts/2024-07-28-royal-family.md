@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[3S2024] Royal Family"
-categories: [SWING]
+categories: [System Hacking]
 tags: []
 last_modified_at: 2024-07-28
 ---

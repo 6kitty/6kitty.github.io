@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "api 개발 자료"
-categories: [Self-study]
+categories: [CS & Development]
 tags: [API, Python, Flask, GAN, Machine Learning]
 last_modified_at: 2025-02-09
 ---

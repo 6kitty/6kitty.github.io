@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 27866 문자와 문자열"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, 백준, 문자열]
 last_modified_at: 2024-01-08
 ---

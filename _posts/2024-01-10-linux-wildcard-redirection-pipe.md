@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "리눅스 와일드카드, 리다이렉션, 파이프"
-categories: [SWING, Self-study]
+categories: [CS & Development]
 tags: []
 last_modified_at: 2024-01-10
 ---

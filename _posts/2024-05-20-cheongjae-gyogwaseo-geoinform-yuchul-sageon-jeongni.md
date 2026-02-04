@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "천재교과서 개인정보 유출 사건 정리"
-categories: [Self-study, Writeup]
+categories: [AI & Data Privacy]
 tags: [개인정보 유출, 천재교과서, 과징금, 법원 판결]
 last_modified_at: 2024-05-20
 ---

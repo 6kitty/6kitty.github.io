@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[WebHacking.kr] old-54번 문제 풀이 (Write-up)"
-categories: [Writeup]
+categories: [Web Hacking]
 tags: [javascript, exploit, ctf, web]
 last_modified_at: 2026-01-12
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Secure mail"
-categories: [Writeup]
+categories: [Web Hacking]
 tags: [Bruteforce, JavaScript, CTF]
 last_modified_at: 2025-04-19
 ---

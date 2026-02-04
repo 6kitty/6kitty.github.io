@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "SQL injection 2"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: [SQL Injection, DBMS, Fingerprinting, WAF Bypass]
 last_modified_at: 2024-01-11
 ---

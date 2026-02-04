@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tools: IDA + helloworld 분석"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [IDA, Helloworld, 분석, CTF]
 last_modified_at: 2024-01-16
 ---

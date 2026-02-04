@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "리눅스 디렉토리 구조"
-categories: [Self-study]
+categories: [CS & Development]
 tags: []
 last_modified_at: 2024-05-11
 ---

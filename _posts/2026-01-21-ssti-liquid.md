@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "jekyll 블로그에서 SSTI 웹해킹 문제 writeup 작성하기"
-categories: '+'
+categories: [Web Hacking]
 tags: [SSTI]
 last_modified_at: 2026-01-21
 render_with_liquid: false

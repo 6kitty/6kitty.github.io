@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 10810 공 넣기"
-categories: [SWING, Writeup]
+categories: [Algorithm]
 tags: [백준, C++, 알고리즘]
 last_modified_at: 2024-01-06
 ---

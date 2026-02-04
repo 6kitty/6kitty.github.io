@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[DownUnderCTF] MISC-tldr please summarise"
-categories: [Writeup]
+categories: [CS & Development]
 tags: [CTF, MISC, Summary]
 last_modified_at: 2024-07-07
 ---

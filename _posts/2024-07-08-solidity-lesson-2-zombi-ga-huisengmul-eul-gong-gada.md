@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solidity Lesson 2: 좀비가 희생물을 공격하다"
-categories: [Self-study]
+categories: [Cryptography & Blockchain]
 tags: [Solidity, Smart Contract, Blockchain]
 last_modified_at: 2024-07-08
 ---

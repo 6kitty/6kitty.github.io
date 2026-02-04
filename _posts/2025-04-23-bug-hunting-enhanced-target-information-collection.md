@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "버그 헌팅: 향상된 타겟 정보 수집"
-categories: [Writeup]
+categories: [Web Hacking]
 tags: [bug hunting, reconnaissance, security, tools, techniques]
 last_modified_at: 2025-04-23
 ---

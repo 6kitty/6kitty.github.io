@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 5597 과제 안 내신 분..?"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, 백준, 알고리즘]
 last_modified_at: 2024-01-06
 ---

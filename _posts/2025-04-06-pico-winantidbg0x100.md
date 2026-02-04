@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pico- WinAntiDBG0x100"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Debugging, Reverse Engineering]
 last_modified_at: 2025-04-06
 ---

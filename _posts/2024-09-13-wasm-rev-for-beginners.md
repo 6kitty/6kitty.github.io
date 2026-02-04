@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wasm rev for beginners"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Wasm, Reverse Engineering, CTF]
 last_modified_at: 2024-09-13
 ---

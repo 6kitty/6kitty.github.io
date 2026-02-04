@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "error based sql injection"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: [SQL Injection, Error Based, Security]
 last_modified_at: 2023-12-28
 ---

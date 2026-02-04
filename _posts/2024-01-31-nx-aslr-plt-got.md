@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NX & ASLR와 PLT & GOT"
-categories: [Self-study, Writeup]
+categories: [System Hacking]
 tags: [NX, ASLR, PLT, GOT, Security]
 last_modified_at: 2024-01-31
 ---

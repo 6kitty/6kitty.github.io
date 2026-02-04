@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "checksec 정리"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [checksec, security, analysis, CTF]
 last_modified_at: 2024-02-05
 ---

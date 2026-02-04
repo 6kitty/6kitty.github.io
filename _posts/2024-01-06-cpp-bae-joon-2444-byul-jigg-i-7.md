@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 2444 별 찍기 - 7"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, 백준, 별찍기]
 last_modified_at: 2024-01-06
 ---

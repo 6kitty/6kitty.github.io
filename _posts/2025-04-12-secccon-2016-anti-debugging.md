@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SECCON 2016- Anti-Debugging"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: [Debugging, CTF, Reverse Engineering]
 last_modified_at: 2025-04-12
 ---

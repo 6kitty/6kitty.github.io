@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HSpace] empty"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Steganography, QR Code]
 last_modified_at: 2024-03-09
 ---

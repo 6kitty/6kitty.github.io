@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XSS filtering bypass 1"
-categories: [SWING, Writeup]
+categories: [Web Hacking]
 tags: [XSS, Filtering, Bypass]
 last_modified_at: 2023-11-07
 ---

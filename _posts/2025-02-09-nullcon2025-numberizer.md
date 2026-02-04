@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[NullCon2025] Numberizer"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [CTF, PHP, Vulnerability]
 last_modified_at: 2025-02-09
 ---

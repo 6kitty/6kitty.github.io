@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "gdb설치와 실습"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [gdb, pwndbg, 디버깅, 리눅스]
 last_modified_at: 2024-01-22
 ---

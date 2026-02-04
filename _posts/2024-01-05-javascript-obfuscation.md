@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자바스크립트 난독화(Javascript Obfuscation)"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: [Obfuscation, JavaScript, Security]
 last_modified_at: 2024-01-05
 ---

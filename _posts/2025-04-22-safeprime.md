@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "safeprime"
-categories: [Writeup]
+categories: [Cryptography & Blockchain]
 tags: [python, rsa, cryptography, ctf]
 last_modified_at: 2025-04-22
 ---

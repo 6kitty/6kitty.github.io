@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[3주차] network_recover"
-categories: [Self-study]
+categories: [Digital Forensics]
 tags: [CTF, Writeup, Network]
 last_modified_at: 2024-03-31
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "정렬 시간복잡도"
-categories: [Self-study]
+categories: [Algorithm]
 tags: []
 last_modified_at: 2024-01-08
 ---

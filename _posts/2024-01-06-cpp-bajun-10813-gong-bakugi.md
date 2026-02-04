@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 10813 공 바꾸기"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, Algorithm, Baekjoon]
 last_modified_at: 2024-01-06
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[4주차] Tryhackme: Windows Forensics 1 일부"
-categories: [SWING, Writeup, Self-study]
+categories: [Digital Forensics]
 tags: [Windows, Forensics, Registry]
 last_modified_at: 2024-04-30
 ---

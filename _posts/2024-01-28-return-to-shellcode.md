@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Return to Shellcode"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Exploit, Shellcode, Buffer Overflow, Canary]
 last_modified_at: 2024-01-28
 ---

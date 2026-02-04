@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[3주차] swing_register_asssignment.exe 분석"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: []
 last_modified_at: 2024-04-02
 ---

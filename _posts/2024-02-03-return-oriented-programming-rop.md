@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Return Oriented Programming(ROP)"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: [ROP, Exploit, CTF, Wargame]
 last_modified_at: 2024-02-03
 ---

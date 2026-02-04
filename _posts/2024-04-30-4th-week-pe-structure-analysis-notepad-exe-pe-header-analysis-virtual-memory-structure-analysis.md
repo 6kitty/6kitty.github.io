@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[4주차] PE 구조 분석 & notepad.exe PE 헤더 분석, 가상 메모리 구조 분석"
-categories: [Self-study, Writeup]
+categories: [Digital Forensics]
 tags: [PE, notepad.exe, 구조 분석, 가상 메모리]
 last_modified_at: 2024-04-30
 ---

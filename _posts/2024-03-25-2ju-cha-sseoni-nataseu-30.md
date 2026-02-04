@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[2주차] 써니나타스 30"
-categories: [Self-study, Writeup]
+categories: [Digital Forensics]
 tags: [CTF, Wargame]
 last_modified_at: 2024-03-25
 ---

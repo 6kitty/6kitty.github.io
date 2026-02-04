@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[2주차] 악성코드 분석 - vmem"
-categories: [Self-study, Writeup]
+categories: [Digital Forensics]
 tags: [악성코드, vmem, 분석, Forensics]
 last_modified_at: 2024-03-26
 ---

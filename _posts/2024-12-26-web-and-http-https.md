@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WEB & HTTP/HTTPS"
-categories: [Self-study]
+categories: [Web Hacking]
 tags: [HTTP, HTTPS, Web, Protocol]
 last_modified_at: 2024-12-26
 ---

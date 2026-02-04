@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[DownUnderCTF] REV-number mashing"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: [CTF, Wargame, Problem Solving]
 last_modified_at: 2024-07-10
 ---

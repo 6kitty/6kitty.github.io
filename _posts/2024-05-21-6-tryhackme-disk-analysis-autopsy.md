@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[6주차] TryHackMe : Disk Analysis & Autopsy"
-categories: [Self-study, Writeup]
+categories: [Digital Forensics]
 tags: [TryHackMe, Disk Analysis, Autopsy, Forensics]
 last_modified_at: 2024-05-21
 ---

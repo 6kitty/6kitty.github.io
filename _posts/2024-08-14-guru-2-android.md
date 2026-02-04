@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GURU 2 android"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [GURU, Android, Assignment, Files]
 last_modified_at: 2024-08-14
 ---

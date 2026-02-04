@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "simple_sqli"
-categories: [Writeup]
+categories: [Web Hacking]
 tags: [sqli, flask, python, security, database]
 last_modified_at: 2025-04-28
 ---

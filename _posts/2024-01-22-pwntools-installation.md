@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pwntools 설치"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [pwntools, exploit, CTF]
 last_modified_at: 2024-01-22
 ---

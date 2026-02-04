@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web Browser"
-categories: [SWING]
+categories: [Web Hacking]
 tags: [Web, Browser, HTTP, DNS, Rendering, Devtools]
 last_modified_at: 2024-12-28
 ---

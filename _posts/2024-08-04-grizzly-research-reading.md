@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[심화스터디] GRIZZLY 리서치 읽어보기"
-categories: [Self-study, Writeup]
+categories: [System Hacking]
 tags: [GRIZZLY, TEMU, 리서치, 보안, 데이터 수집]
 last_modified_at: 2024-08-04
 ---

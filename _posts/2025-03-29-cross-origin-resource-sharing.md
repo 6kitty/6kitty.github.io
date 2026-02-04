@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cross Origin Resource Sharing"
-categories: [Self-study]
+categories: [Web Hacking]
 tags: [CORS, SOP, Web Security]
 last_modified_at: 2025-03-29
 ---

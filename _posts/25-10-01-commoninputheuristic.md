@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자료 정리 2"
-categories:
+categories: [AI & Data Privacy]
   - Blockchain
 tags:
   - aml

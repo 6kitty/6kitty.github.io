@@ -1,4 +1,4 @@
 ---
 layout: category
-title: SWING
+title: Algorithm
 ---

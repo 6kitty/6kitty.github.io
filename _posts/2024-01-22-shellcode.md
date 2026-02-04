@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "shellcode"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [shellcode, exploit, assembly, C]
 last_modified_at: 2024-01-22
 ---

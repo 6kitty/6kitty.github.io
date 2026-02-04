@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[7주차] SWING G4M3 풀어보기"
-categories: [SWING, Writeup, Self-study, +]
+categories: [System Hacking]
 tags: []
 last_modified_at: 2024-06-04
 ---

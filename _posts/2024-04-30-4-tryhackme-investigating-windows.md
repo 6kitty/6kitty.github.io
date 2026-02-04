@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[4주차] Tryhackme: Investigating Windows"
-categories: [SWING, Writeup, Self-study]
+categories: [Digital Forensics]
 tags: [Tryhackme, Windows, CTF, Investigation]
 last_modified_at: 2024-04-30
 ---

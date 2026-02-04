@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 3003 킹, 퀸, 룩, 비숍, 나이트, 폰"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [백준, C++, 체스]
 last_modified_at: 2024-01-06
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "누적 합(prefix sum)"
-categories: [Self-study]
+categories: [Algorithm]
 tags: []
 last_modified_at: 2024-01-12
 ---

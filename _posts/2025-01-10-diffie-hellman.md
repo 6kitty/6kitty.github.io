@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "diffie-hellman"
-categories: [Self-study]
+categories: [Cryptography & Blockchain]
 tags: [Cryptography, Diffie-Hellman, Finite Field, Python]
 last_modified_at: 2025-01-10
 ---

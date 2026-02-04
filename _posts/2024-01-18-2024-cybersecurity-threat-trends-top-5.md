@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "사이버 보안업계가 선정한 2024년 보안 위협 트렌드 TOP 5"
-categories: [SWING, Writeup]
+categories: [Retrospective]
 tags: [사이버 보안, 트렌드, 랜섬웨어, AI, 모바일 공격]
 last_modified_at: 2024-01-18
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Binary & Analysis"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Reversing, Static Analysis, Dynamic Analysis, Malware Analysis, Compiler, Disassembly]
 last_modified_at: 2024-01-14
 ---

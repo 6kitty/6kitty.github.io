@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "uaf_overwrite"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [uaf, exploit, CTF]
 last_modified_at: 2024-02-29
 ---

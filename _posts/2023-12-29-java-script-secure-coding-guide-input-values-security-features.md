@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "자바스크립트 시큐어코딩 가이드: 입력값,보안기능"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: []
 last_modified_at: 2023-12-29
 ---

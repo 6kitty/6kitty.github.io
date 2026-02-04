@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mac m3 포너블 환경 설정"
-categories:
+categories: [System Hacking]
   - +
 tags:
   - mac

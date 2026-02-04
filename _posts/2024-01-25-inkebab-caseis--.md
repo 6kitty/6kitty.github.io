@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "함수 호출 규약"
-categories: [SWING]
+categories: [System Hacking]
 tags: [Calling Convention, cdecl, SYSV, x86, x86-64]
 last_modified_at: 2024-01-25
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "simple-ssti"
-categories: [Writeup]
+categories: [Web Hacking]
 tags: [ssti, security, ctf, exploitation]
 last_modified_at: 2025-04-22
 ---

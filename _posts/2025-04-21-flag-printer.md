@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "flag-printer"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [c++, programming, security]
 last_modified_at: 2025-04-21
 ---

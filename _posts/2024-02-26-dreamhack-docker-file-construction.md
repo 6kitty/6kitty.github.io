@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "드림핵 도커 파일 구축"
-categories: [Self-study, Writeup]
+categories: [CS & Development]
 tags: [Docker, WSL, gdb, pwndbg]
 last_modified_at: 2024-02-26
 ---

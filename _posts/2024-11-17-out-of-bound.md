@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Out of Bound"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Memory Corruption, OOB, Exploit]
 last_modified_at: 2024-11-17
 ---

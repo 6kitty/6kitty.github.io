@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Format String Bug"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Format String, Memory Corruption, Exploit]
 last_modified_at: 2024-02-17
 ---

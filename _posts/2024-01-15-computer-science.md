@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Computer Science"
-categories: [Self-study]
+categories: [CS & Development]
 tags: [Computer Architecture, x86-64, Windows Memory Layout]
 last_modified_at: 2024-01-15
 ---

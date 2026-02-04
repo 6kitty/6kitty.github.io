@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[심화스터디] 해외 케이스노트 읽어보기"
-categories: [Self-study, Writeup]
+categories: [Retrospective]
 tags: [Temu, 개인정보, 보안, 소송]
 last_modified_at: 2024-08-02
 ---

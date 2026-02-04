@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[HITCON 2024] rivisual"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [JavaScript, Deobfuscation, CTF]
 last_modified_at: 2024-07-23
 ---

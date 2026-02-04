@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 17390 이건 꼭 풀어야 해!"
-categories: [Self-study, Writeup]
+categories: [Algorithm]
 tags: [백준, C++, 알고리즘, 정렬, prefix sum]
 last_modified_at: 2024-01-08
 ---

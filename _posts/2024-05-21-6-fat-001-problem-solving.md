@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[6주차] FAT.001 문제 풀이"
-categories: [Self-study, Writeup]
+categories: [Digital Forensics]
 tags: [FAT, Disk Recovery, Forensics]
 last_modified_at: 2024-05-21
 ---

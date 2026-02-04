@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "assembly quiz 정리"
-categories: [SWING, Self-study]
+categories: [System Hacking]
 tags: []
 last_modified_at: 2024-01-22
 ---

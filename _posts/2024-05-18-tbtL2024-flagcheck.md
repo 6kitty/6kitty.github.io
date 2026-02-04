@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[TBTL2024] Flagcheck"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Flagcheck]
 last_modified_at: 2024-05-18
 ---

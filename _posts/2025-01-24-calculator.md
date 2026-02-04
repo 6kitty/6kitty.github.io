@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Calculator"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [SSTI, Jinja2, RCE]
 last_modified_at: 2025-01-24
 render_with_liquid: false

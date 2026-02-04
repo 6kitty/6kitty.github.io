@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solidity Lesson 1: 좀비 공장 만들기"
-categories: [Self-study]
+categories: [Cryptography & Blockchain]
 tags: [Solidity, Ethereum, Smart Contracts]
 last_modified_at: 2024-07-03
 ---

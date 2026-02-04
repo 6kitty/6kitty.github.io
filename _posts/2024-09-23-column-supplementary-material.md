@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "칼럼 보충자료"
-categories: [Self-study]
+categories: [Retrospective]
 tags: [Python, Code, MultiPartForm, Windows, Linux]
 last_modified_at: 2024-09-23
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "버그 헌팅: 어플리케이션 보안의 이해 (안드로이드)"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [mobile, app, security, hacking, android]
 last_modified_at: 2025-04-23
 ---

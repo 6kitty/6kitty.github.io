@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pe 파일 기초"
-categories: [Self-study]
+categories: [Digital Forensics]
 tags: [PE, Portable Executable, Windows]
 last_modified_at: 2024-01-09
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SQL injection 1"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: [SQL Injection, UNION, Subquery, Application Logic, Blind SQL Injection, Error Based SQL Injection, Time Based SQL Injection]
 last_modified_at: 2023-12-26
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DLL injection"
-categories:
+categories: [System Hacking]
   - 'Self-study'
 tags:
   - windows

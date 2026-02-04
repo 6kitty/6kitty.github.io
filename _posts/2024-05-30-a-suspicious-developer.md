@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "103 – A suspicious developer"
-categories: [SWING, Writeup, Self-study]
+categories: [Digital Forensics]
 tags: [PE, build, debugging, analysis]
 last_modified_at: 2024-05-30
 ---

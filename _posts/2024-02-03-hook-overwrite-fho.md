@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hook Overwrite(fho)"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Exploit, Hooking, Memory Management]
 last_modified_at: 2024-02-03
 ---

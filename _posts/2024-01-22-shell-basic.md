@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "shell-basic"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [shellcode, assembly, syscall]
 last_modified_at: 2024-01-22
 ---

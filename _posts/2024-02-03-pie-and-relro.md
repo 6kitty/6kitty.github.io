@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PIE & RELRO"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [ASLR, PIE, RELRO, ROP, CTF]
 last_modified_at: 2024-02-03
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Return To Library(RTL)"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [Exploit, Return to Libc, Buffer Overflow, ROP]
 last_modified_at: 2024-01-31
 ---

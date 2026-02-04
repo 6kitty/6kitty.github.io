@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[JS] raw SQL vs query builder vs ORM"
-categories: [Self-study]
+categories: [CS & Development]
 tags: [JavaScript, SQL, ORM, Query Builder]
 last_modified_at: 2024-01-06
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pico-rev_cipher"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [CTF, picoCTF, reverse engineering]
 last_modified_at: 2025-04-12
 ---

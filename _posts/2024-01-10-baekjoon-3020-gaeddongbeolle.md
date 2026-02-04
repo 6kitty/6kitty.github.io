@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PY] 백준 3020 개똥벌레"
-categories: [SWING, Writeup]
+categories: [Algorithm]
 tags: [백준, 개똥벌레, Python]
 last_modified_at: 2024-01-10
 ---

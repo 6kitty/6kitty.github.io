@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "31st Hacking Camp"
-categories:
+categories: [Retrospective]
   - +
 last_modified_at: 2025-09-01
 ---

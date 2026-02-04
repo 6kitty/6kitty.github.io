@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[드림핵] repeat service"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Wargame, Buffer Overflow, Exploit]
 last_modified_at: 2024-02-27
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "sql injection bypass WAF advanced"
-categories: [SWING, Writeup, Self-study]
+categories: [Web Hacking]
 tags: [SQL Injection, WAF, Bypass, Python]
 last_modified_at: 2024-01-11
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "sql 시스템 테이블 정리"
-categories: [Self-study]
+categories: [Web Hacking]
 tags: [SQL, Database, System Tables]
 last_modified_at: 2023-12-31
 ---

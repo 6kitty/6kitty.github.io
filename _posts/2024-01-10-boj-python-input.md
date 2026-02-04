@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PY] 백준에서 파이썬 입력 받기"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [Python, Input, Baekjoon]
 last_modified_at: 2024-01-10
 ---

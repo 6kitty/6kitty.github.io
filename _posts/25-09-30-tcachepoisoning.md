@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[DH] Exploit Tech: Tcache Poisoning"
-categories:
+categories: [System Hacking]
   - 'Self-study'
 tags:
   - dfb

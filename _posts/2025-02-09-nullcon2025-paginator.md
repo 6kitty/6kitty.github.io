@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[NullCon2025] Paginator"
-categories: [SWING, Writeup]
+categories: [Web Hacking]
 tags: [SQL Injection, CTF]
 last_modified_at: 2025-02-09
 ---

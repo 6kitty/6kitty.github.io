@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "우분투 설치"
-categories: [Self-study]
+categories: [CS & Development]
 tags: [Ubuntu, WSL, VMware]
 last_modified_at: 2024-01-17
 ---

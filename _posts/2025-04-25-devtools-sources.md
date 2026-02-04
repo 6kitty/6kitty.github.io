@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "devtools-sources"
-categories: [Self-study]
+categories: [Web Hacking]
 tags: [html, jekyll, markdown, conversion]
 last_modified_at: 2025-04-25
 ---

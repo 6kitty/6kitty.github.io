@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "just read memory"
-categories: [Writeup]
+categories: [System Hacking]
 tags: [CTF, Memory, Analysis]
 last_modified_at: 2025-01-16
 ---

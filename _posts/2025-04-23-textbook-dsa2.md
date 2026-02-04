@@ -2,7 +2,7 @@
 ---
 layout: post
 title: "Textbook-DSA2"
-categories: [Writeup]
+categories: [Algorithm]
 tags: [dsa, signature, security, python, cryptography]
 last_modified_at: 2025-04-23
 ---

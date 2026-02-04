@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stack Canary"
-categories: [Self-study]
+categories: [System Hacking]
 tags: [Stack, Canary, Buffer Overflow, Security]
 last_modified_at: 2024-01-28
 ---

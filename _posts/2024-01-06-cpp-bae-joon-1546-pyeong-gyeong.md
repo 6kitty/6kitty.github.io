@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CPP] 백준 1546 평균"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [C++, Algorithm, Average]
 last_modified_at: 2024-01-06
 ---

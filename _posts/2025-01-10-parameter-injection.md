@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Parameter Injection"
-categories: [SWING, Writeup]
+categories: [Web Hacking]
 tags: [CTF, Wargame, Self-study]
 last_modified_at: 2025-01-10
 ---

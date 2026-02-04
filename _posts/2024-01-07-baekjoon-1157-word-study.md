@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PY] 백준 1157 단어 공부"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [Python, Baekjoon, Algorithm]
 last_modified_at: 2024-01-07
 ---

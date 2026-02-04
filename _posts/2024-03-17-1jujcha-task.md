@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[1주차] task"
-categories: [Self-study]
+categories: [Digital Forensics]
 tags: [CTF, Steganography, EXIF, Signature Analysis]
 last_modified_at: 2024-03-17
 ---

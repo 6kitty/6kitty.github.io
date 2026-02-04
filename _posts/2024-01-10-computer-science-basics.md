@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "컴퓨터 과학 기초"
-categories: [Self-study]
+categories: [CS & Development]
 tags: []
 last_modified_at: 2024-01-10
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[UIUCTF2024] rev-Summarize"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: [CTF, Reverse Engineering, Python, Z3]
 last_modified_at: 2024-07-23
 ---

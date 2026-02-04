@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[PY] 백준 25206 너의 평점은"
-categories: [Self-study]
+categories: [Algorithm]
 tags: [Python, 백준, 평점]
 last_modified_at: 2024-01-07
 ---

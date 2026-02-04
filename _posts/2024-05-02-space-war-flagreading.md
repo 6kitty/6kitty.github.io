@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SpaceWar] flagreading"
-categories: [SWING, Writeup]
+categories: [System Hacking]
 tags: [CTF, Wargame, flag]
 last_modified_at: 2024-05-02
 ---

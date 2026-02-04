@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stack Buffer Overflow"
-categories: [SWING, Writeup, Self-study]
+categories: [System Hacking]
 tags: [Buffer Overflow, Memory Corruption, Exploit]
 last_modified_at: 2024-01-26
 ---
