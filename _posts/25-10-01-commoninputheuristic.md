@@ -2,7 +2,6 @@
 layout: post
 title: "자료 정리 2"
 categories: [AI & Data Privacy]
-  - Blockchain
 tags:
   - aml
 last_modified_at: 2025-10-01

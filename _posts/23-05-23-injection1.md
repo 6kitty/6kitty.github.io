@@ -2,7 +2,6 @@
 layout: post
 title: "DLL injection"
 categories: [System Hacking]
-  - 'Self-study'
 tags:
   - windows
   - pwn

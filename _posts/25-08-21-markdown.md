@@ -2,7 +2,6 @@
 layout: post
 title: "마크다운 형식이랑 Html 정리"
 categories: [CS & Development]
-  - +
 tags:
   - markdown
   - html

@@ -2,7 +2,6 @@
 layout: post
 title: "자료 정리 1"
 categories: [Cryptography & Blockchain]
-  - 'Self-study'
 tags:
   - stolen funds
 last_modified_at: 2025-10-01
