@@ -33,10 +33,6 @@ plainwhite:
       url: "/about"
     - title: post(TIL)
       url: "/"
-  condensed_mobile:
-    - home
-    - post
-    - page
 
 plugins:
   - jekyll-feed
