@@ -1,207 +1,222 @@
-# Hydeout
+# plainwhite
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
+Simplistic jekyll portfolio-style theme for writers.
 
-![Desktop](/_screenshots/1.png?raw=true)
-<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
-<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
+**Demo**: [samarsault.com](https://samarsault.com)
 
-## ✅ Jekyll 4.x Branch
+![plainwhite theme preview](/screenshot.png)
 
-**You're viewing the Jekyll 4.x compatible branch (recommended for all new projects).**
+## Installation on Github Pages
 
-This branch includes:
-- Full Jekyll 4.x compatibilityTha
-- GitHub Pages deployment support
-- Modern Sass modules
-- Updated dependencies
-- Performance improvements
-- Bug fixes
+Add this line to your site's `_config.yml`:
+
+```yaml
+remote_theme: samarsault/plainwhite-jekyll
+```
+
+## Installation
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "plainwhite"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: plainwhite
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install plainwhite
 
 ## Usage
 
-Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
-Add `gem "jekyll-theme-hydeout", "~> 5.0"` to your Gemfile and run
-`bundle install`.
+The "plainwhite" key in \_config.yml is used to customize the theme data.
 
-### GitHub Pages Support
+```yaml
+plainwhite:
+  name: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
 
-**Important:** Jekyll 4.x requires GitHub Actions for GitHub Pages deployment, as the default GitHub Pages builder only supports Jekyll 3.x.
-
-To use this theme with GitHub Pages, set up a GitHub Actions deployment:
-- Use our [workflow file](https://github.com/fongandrew/hydeout/blob/jekyll-v4/.github/workflows/jekyll-build.yml) as a template.
-- Update the branch name in the workflow to match your main branch
-- Enable GitHub Pages in your repository settings with the source set to "GitHub Actions"
-
-See https://jekyllrb.com/docs/continuous-integration/github-actions/ for more information.
-
-### Pagination Setup
-
-Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
-it with an `index.html` that uses the `index` layout:
-
-```
----
-layout: index
-title: Home
----
+  social_links:
+    twitter: samarsault
+    github: samarsault
+    linkedIn: in/samarsault # format: locale/username
 ```
 
-You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
-to include per page (e.g. `paginate: 5`).
+**Updating Placeholder Image**
 
-### Keep It Simple
+The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website, or by changing the following line in `_config.yaml`
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
-
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
-
-### Customization
-
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
-
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-fg-color: white !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
+```yaml
+plainwhite:
+  portfolio_image:  "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
 ```
 
-To override these variables, define your own variables inside a SASS file
-in the `assets/css/` directory.
-Then `@use` that file in your own `assets/css/main.scss` file, like so:
+To use a different image for dark mode, e.g. with different colors that work better in dark mode, add a `portfolio_image_dark` entry in addition to the `portfolio_image`.
 
-```scss
----
-# Jekyll needs front matter for SCSS files
----
-
-@use "colours";
-@use "hydeout/variables" with (
-  $body-bg:           colours.$grey,
-  $body-color:        white,
-  $heading-color:     colours.$light-pink,
-  $link-color:        colours.$green,
-  $sidebar-bg-color:  colours.$dark-pink,
-  $sidebar-sticky:    false,
-  );
-@use "hydeout";
+```yaml
+plainwhite:
+  portfolio_image:      "assets/portfolio.png"
+  portfolio_image_dark: "assets/portfolio_dark.png"
 ```
 
-Example content of `assets/css/colours.scss`:
+**Comments (Disqus)**
 
-```scss
-$green:       #61c200;
-$grey:        #363636;
-$dark-pink:   #9f0647;
-$light-pink:  #f0a2c3;
+Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
+
+```yaml
+plainwhite:
+  disqus_shortname: games
 ```
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
+**Google Analytics**
 
-**Pay attention to the namespace of the variables you intend to override, otherwise, you will probably experience errors.**
+It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
 
-You can see the full set of partials you can replace in the
-[`_includes`](_includes) folder, but there are a few worth noting:
+```yaml
+plainwhite:
+  analytics_id: "< YOUR ID >"
+```
 
-* `_includes/copyright.html` - Insert your own copyright here.
+**Sitemap**
 
-* `_includes/custom-head.html` - Insert custom head tags (e.g. to load your
-  own stylesheets)
+It can be toggled by the following line to under plainwhite in `_config.yml`
 
-* `_includes/custom-foot.html` - Insert custom elements at the end of the
-  body (e.g. for custom JS)
+```yaml
+plainwhite:
+  sitemap: true
+```
 
-* `_includes/custom-nav-links.html` - Additional nav links to insert at the
-  end of the list of links in the sidebar.
+**Excerpts**
 
-  Pro-tip: The `nav`s in the sidebar are flexboxes. Use the `order` property
-  to order your links.
+Excerpts can be enabled by adding the following line to your `_config.yml`
 
-* `_includes/custom-icon-links.html`- Additional icon links to insert at the
-  end of the icon links at the bottom of the sidebar. You can use the `order`
-  property to re-order.
+```yaml
+show_excerpts: true
+```
 
-* `_includes/favicons.html` - Replace references to `favicon.ico` and
-  `favicon.png` with your own favicons references.
+**Layouts**
 
-* `_includes/font-includes.html` - The Abril Fatface font used for the site
-  title is loaded here. If you're overriding that font in the CSS, be sure
-  to also remove the font load reference here.
+- Home
+- Page
+- Post
 
-### New Features
+**Navigation**
 
-* Hydeout adds a new tags page (accessible in the sidebar). Just create a
-  new page with the tags layout:
+Navigation can be enabled by adding the following line to your `_config.yml`
 
-  ```
-  ---
-  layout: tags
-  title: Tags
-  ---
-  ```
+```yaml
+plainwhite:
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
+```
 
-* Hydeout adds a new "category" layout for dedicated category pages.
-  Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar. To create a category page, use the `category` layout"
+**Mobile**
 
-  ```
-  ---
-  layout: category
-  title: My Category
-  ---
+By default, Plainwhite places the sidebar (logo, name, tagline etc.) above the content on mobile (narrow screens).
+To condense it (moving some things to the bottom of the page and making the rest smaller) so it takes up less space, add the following to your `_config.yml`:
 
-  Description of "My Category"
-  ```
+```yaml
+plainwhite:
+  condensed_mobile:
+    - home
+    - post
+    - page
+```
 
-* You can control how pages are sorted by using the `sidebar_sort_order`
-  parameter in the front matter. This works for both category and non-category
-  pages, although non-category pages will always come first. Take a look at
-  [`_includes/sidebar-nav-links.html`](./_includes/sidebar-nav-links.html) if
-  you want to customize this behavior.
+This chooses which layouts (types of page) should be condensed on mobile screens. E.g. if you want everything but the landing page to be condensed, remove `home` from the list. This option does not affect rendering on wider screens.
 
-  ```
-  ---
-  layout: page
-  title: My page
-  sidebar_sort_order: 123
-  ---
+**Dark mode**
 
-  Some content.
-  ```
+Dark mode can be enabled by setting the `dark_mode` flag in your `_config.yml`
 
-* A simple redirect-to-Google search is available. Just create a page with
-  the `search` layout.
+The website will check the OS preferred color scheme and set the theme accordingly, the preference will then be saved in a cookie
 
-  ```
-  ---
-  layout: search
-  title: Google Search
-  ---
-  ```
+```yaml
+plainwhite:
+  dark_mode: true
+```
 
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
+![plainwhite dark theme previe](/dark.png)
 
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
+**Multiline tagline**
 
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
+Tagline can be multiline in this way
 
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
+```yaml
+plainwhite:
+  tagline: |
+  First Line. 
 
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+  Second Line. 
+
+  Third Line.
+```
+
+**Search-bar**
+
+Search-bar can be enabled by adding the following line to `config.yml`
+
+```yaml
+plainwhite:
+  search: true
+```
+
+Search is powered by [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search) Jekyll plugin. A `search.json` containing post meta and contents will be generated in site root folder. Plugin JavaScript will then match for posts based on user input. More info and `search.json` customization documentation can be found in plugin repository.
+
+**Base URL**
+
+You can specify a custom base URL (eg. example.com/blog/) by adding the following line to `_config.yaml`. Note that there is no trailing slash on the URL.
+
+```yaml
+baseurl: "/blog"
+```
+
+**Language**
+
+You can set the `lang` attribute of the `<html>` tag on your pages by changing the following line in `_config.yml`:
+
+```yaml
+plainwhite:
+  html_lang: "en"
+```
+
+[See here for a full list of available language codes](https://www.w3schools.com/tags/ref_country_codes.asp)
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/samarsault/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `plainwhite.gemspec` accordingly.
+
+## Donation
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/thelehhman)
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## More themes
+
+- [Texture](https://github.com/samarsault/texture)

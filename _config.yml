@@ -1,66 +1,47 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+title: 6kittylog
+author: 6kitty (Eunseo Youk)
+email: ""
+description: cyber security
+show_excerpts: true
 
-# Setup
-title:            6kittylog
-tagline:          'Eunseo Youk'
-description:      'cyber security'
-url:              https://6kitty.github.io
-baseurl:          '/'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+# Permalink
+permalink: /:year/:month/:day/:title.html
 
-author:
-  name:           '6kitty (Eunseo Youk)'
-  url:            https://www.linkedin.com/in/eunseo-youk/
+# Build settings
+theme: plainwhite
+baseurl: ""
+url: "https://6kitty.github.io"
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+sass:
+  sass_dir: _sass
+
+plainwhite:
+  name: 6kitty
+  tagline: "⎛⎝ ≽ > ⩊ < ≼ ⎠⎞"
+  date_format: "%b %-d, %Y"
+  portfolio_image: "assets/pro2.png"
+  portfolio_image_dark: "assets/pro3.png"
+  sitemap: true
+  search: true
+  dark_mode: true
+  html_lang: "ko"
+  social_links:
+    github: 6kitty
+    linkedIn: in/eunseo-youk
+  navigation:
+    - title: about me
+      url: "/about"
+    - title: post(TIL)
+      url: "/"
+  condensed_mobile:
+    - about me
+    - post(TIL)
 
 plugins:
   - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
-  - jekyll-include-cache
-  - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-  - README.md
-  - .gitignore
-
-permalink:        /:year/:month/:day/:title.html
-
-defaults:
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      excerpt_separator:  <!--more-->
-      layout: post
-
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
-
-disqus:
-  shortname:      6kittylog
-
-google_analytics: UA-100461102-1
-
-# Used for Hydeout's own Github page. Feel free to remove for your
-# own fork.
-hydeout:
-  repo:             https://github.com/6kitty
+# Pagination
+paginate: 5
