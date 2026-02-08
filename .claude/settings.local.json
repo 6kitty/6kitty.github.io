@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(set:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:6kitty.github.io)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
