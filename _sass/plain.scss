@@ -2,7 +2,7 @@
 @import "ext/normalize";
 @import "syntax";
 
-$linkColor: #0a59b0;
+$linkColor: #f68ec4;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -21,6 +21,14 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
+}
+
+button, input[type="button"], input[type="submit"], .switch {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
+  &:hover, &:active, &:focus {
+    cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
+  }
 }
 
 img,
@@ -33,8 +41,10 @@ video {
 a {
   color: #000;
   transition: color 0.3s;
-  &:hover {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
+  &:hover, &:active, &:focus {
     color: $linkColor;
+    cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
   }
 }
 

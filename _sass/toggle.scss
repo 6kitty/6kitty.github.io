@@ -14,7 +14,7 @@
   
   .slider {
     position: absolute;
-    cursor: pointer;
+    cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
     top: 0;
     left: 0;
     right: 0;
@@ -22,6 +22,9 @@
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+    &:hover, &:active, &:focus {
+      cursor: url('https://cdn.cursors-4u.net/css-previews/cute-bow-tie-hearts-blinking-blue-and-pink-pointer-0440efa3-css.webp'), auto !important;
+    }
   }
   
   .slider:before {
