@@ -2,6 +2,7 @@
 layout: page
 title: about me
 sidebar_link: true
+sitemap: false
 ---
 
 ## Eunseo Youk | 6kitty(6k)
