@@ -300,30 +300,7 @@ footer {
   display: none;
 }
 @media screen and (max-width: $mobileW) {
-  .about {
-    .about-header.condensed {
-      align-items: start;
-      align-self: start;
-      .about-title {
-        flex-direction: row;
-        margin-bottom: 10px;
-        img {
-          max-height: 40px;
-        }
-        h2 {
-          margin: 0 10px;
-        }
-      }
-      .tagline {
-        font-size: 18px;
-        margin-bottom: 15px;
-      }
-    }
-    .about-footer.condensed {
-      display: none;
-    }
-  }
-  footer.condensed {
+  .navigation {
     display: none;
   }
 }
