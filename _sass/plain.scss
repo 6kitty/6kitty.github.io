@@ -300,10 +300,8 @@ footer {
   display: none;
 }
 @media screen and (max-width: $mobileW) {
-  .navigation {
-    display: none !important;
-  }
-  nav.navigation {
+  .about .navigation,
+  .about nav.navigation {
     display: none !important;
   }
 }
