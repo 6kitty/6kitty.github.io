@@ -5,7 +5,7 @@ description: cyber security
 show_excerpts: true
 
 # Permalink
-permalink: /:year/:month/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: plainwhite
